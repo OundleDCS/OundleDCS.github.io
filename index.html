@@ -329,6 +329,37 @@
 <br />
 <img class="img-fluid" src="images/ocsred.png" /></div>
 </div>
+	<!-- Modal that pops up on page load -->
+<div class="modal fade" id="welcomeModal" tabindex="-1" role="dialog" aria-labelledby="welcomeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title red-text" id="welcomeModalLabel">Welcome to Oundle and District Choral Society</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h2 class="red-text">A new and exciting opportunity has arisen!</h2>
+        <p>We are seeking a new Musical Director from September 2025 as our current incumbent will be moving on to pastures new.</p>
+        <p>Established in 1913 and currently consisting of approximately 80 voices (SATB), we meet on Monday evenings in Oundle to prepare a variety of works for two concerts a year, usually in December and Springtime.</p>
+        <p>If you, or anyone you know, are interested in applying for this role, please contact our Secretary, Janet Ollerenshaw, at <a href="mailto:ollerenshawjb@hotmail.com">ollerenshawjb@hotmail.com</a> for more information and/or details on how to apply.</p>
+        <p><strong>Closing date:</strong> Midnight on Tuesday 21st February 2025.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  $(document).ready(function() {
+    // Show the modal when the page loads
+    $('#welcomeModal').modal('show');
+  });
+</script>
+
 <script>
         //scroll smooth jquery 700 scroll speed -50 margin
         $('.nav-link').click(function() {
